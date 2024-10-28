@@ -112,4 +112,14 @@ body {
 }
 .resume__interests-box img {
   height: 40px;
+}
+
+@media (min-width: 576px) {
+  .resume__header {
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .resume__header-text {
+    text-align: left;
+  }
 }/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,12 @@
+@media (min-width: 576px) {
+    .resume {
+        &__header {
+            flex-direction: row;
+            justify-content: space-evenly;
+
+            &-text {
+                text-align: left;
+            }
+        }
+    }
+}
