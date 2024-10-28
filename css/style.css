@@ -43,12 +43,39 @@ body {
   font-size: 1.4rem;
 }
 .resume__header {
+  position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding-bottom: 3em;
   text-align: center;
   background-color: #0074D9;
+}
+.resume__header-buttons {
+  position: absolute;
+  bottom: -0.4em;
+  display: flex;
+}
+.resume__header-buttons button {
+  margin: 0 0.5em;
+  padding: 0.2em;
+  border: none;
+  border-radius: 8px;
+  background: none;
+  font-size: 1.7em;
+  color: #F7FBFC;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+.resume__header-buttons button i {
+  transition: color 0.3s;
+}
+.resume__header-buttons button:hover {
+  background-color: #F7FBFC;
+}
+.resume__header-buttons button:hover i {
+  color: #0074D9;
 }
 .resume__header-img {
   width: 100%;
@@ -129,6 +156,10 @@ body {
   .resume__header {
     flex-direction: row;
     justify-content: space-evenly;
+    padding-bottom: 2em;
+  }
+  .resume__header-buttons {
+    right: 1em;
   }
   .resume__header-text {
     text-align: left;
@@ -159,6 +190,9 @@ body {
   }
   .resume__header-text {
     color: #000;
+  }
+  .resume__header-buttons {
+    display: none;
   }
   .resume__education, .resume__interests {
     page-break-inside: avoid;

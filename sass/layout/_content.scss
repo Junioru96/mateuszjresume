@@ -27,17 +27,49 @@ body {
 .resume {
 	background-color: $light-color;
 	overflow: hidden;
-    font-size: 1.4rem;
+	font-size: 1.4rem;
 
 	// HEADER
 
 	&__header {
+		position: relative;
 		display: flex;
 		justify-content: center;
 		align-items: center;
 		flex-direction: column;
+		padding-bottom: 3em;
 		text-align: center;
 		background-color: $main-color;
+
+		&-buttons {
+			position: absolute;
+			bottom: -0.4em;
+			display: flex;
+
+			button {
+				margin: 0 0.5em;
+				padding: 0.2em;
+				border: none;
+				border-radius: 8px;
+				background: none;
+				font-size: 1.7em;
+				color: $light-color;
+				cursor: pointer;
+				transition: background-color .3s;
+
+				i {
+					transition: color .3s;
+				}
+			}
+
+			button:hover {
+				background-color: $light-color;
+
+				i {
+					color: $main-color;
+				}
+			}
+		}
 
 		&-img {
 			width: 100%;
@@ -93,14 +125,13 @@ body {
 		}
 	}
 
-    // SKILLS
+	// SKILLS
 
-    &__skills {
-
-        &-list {
-            list-style-type: none;
-            padding: 0;
-        }
+	&__skills {
+		&-list {
+			list-style-type: none;
+			padding: 0;
+		}
 		&-box {
 			padding: 1em 0;
 
@@ -135,21 +166,20 @@ body {
 		}
 	}
 
-    // INTERESTS
+	// INTERESTS
 
 	&__interests {
 		&-box {
 			display: flex;
 			justify-content: center;
 			align-items: center;
-            flex-direction: column;
-            margin: 1em 0;
+			flex-direction: column;
+			margin: 1em 0;
 			text-align: center;
 
-            img {
-                height: 40px;
-            }
+			img {
+				height: 40px;
+			}
 		}
 	}
-
 }

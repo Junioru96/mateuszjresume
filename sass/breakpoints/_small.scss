@@ -3,6 +3,11 @@
 		&__header {
 			flex-direction: row;
 			justify-content: space-evenly;
+            padding-bottom: 2em;
+
+            &-buttons {
+                right: 1em;
+            }
 
 			&-text {
 				text-align: left;
