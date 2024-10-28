@@ -119,6 +119,7 @@ body {
   align-items: center;
   flex-direction: column;
   margin: 1em 0;
+  text-align: center;
 }
 .resume__interests-box img {
   height: 40px;
@@ -132,10 +133,24 @@ body {
   .resume__header-text {
     text-align: left;
   }
+  .resume__interests-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .resume__interests-box {
+    padding: 1em;
+    width: 50%;
+  }
 }
 @media (min-width: 768px) {
   .resume {
     margin: 1.5em;
+  }
+  .resume__interests-box {
+    width: 25%;
   }
 }
 @media print {
