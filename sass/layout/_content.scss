@@ -11,9 +11,9 @@ body {
 }
 
 .section-title {
-    text-align: left;
-    font-size: 1.5em;
-    color: $main-color;
+	text-align: left;
+	font-size: 1.5em;
+	color: $main-color;
 	text-transform: uppercase;
 }
 
@@ -56,5 +56,24 @@ body {
 				}
 			}
 		}
+	}
+
+	&__experience {
+		&-box {
+			margin: 1em 0;
+            font-size: 1.4rem;
+		}
+
+		&-company {
+			font-weight: bold;
+
+			i {
+				margin-right: 1em;
+			}
+		}
+
+        &-date {
+            margin: 0.5em 0;
+        }
 	}
 }
