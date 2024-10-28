@@ -1,9 +1,17 @@
 @media print {
-    .resume {
-        &__header {
-            &-text {
-                color: #000;
-            }
-        }
-    }
+	.resume {
+		.section-title {
+			color: #000;
+		}
+		&__header {
+			&-text {
+				color: #000;
+			}
+		}
+
+		&__education,
+		&__interests {
+			page-break-inside: avoid;
+		}
+	}
 }

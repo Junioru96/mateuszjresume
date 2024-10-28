@@ -72,6 +72,12 @@ body {
 .resume__experience-box {
   margin: 1em 0;
 }
+.resume__experience-box ul {
+  padding: 0 1.1em;
+}
+.resume__experience-box ul li {
+  margin: 0.5em 0;
+}
 .resume__experience-company {
   font-weight: bold;
 }
@@ -133,7 +139,13 @@ body {
   }
 }
 @media print {
+  .resume .section-title {
+    color: #000;
+  }
   .resume__header-text {
     color: #000;
+  }
+  .resume__education, .resume__interests {
+    page-break-inside: avoid;
   }
 }/*# sourceMappingURL=style.css.map */
