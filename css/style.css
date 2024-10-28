@@ -22,10 +22,10 @@ body {
 }
 
 .section-padding {
-  padding: 3em 1.5em;
+  padding: 1em 1.5em;
 }
 
-.resume__education.section-padding,
+.resume__skills.section-padding,
 .resume__interests.section-padding {
   padding: 0 1.5em;
 }
@@ -81,6 +81,20 @@ body {
 .resume__experience-date {
   margin: 0.5em 0;
 }
+.resume__skills-list {
+  list-style-type: none;
+  padding: 0;
+}
+.resume__skills-box {
+  padding: 1em 0;
+}
+.resume__skills-box-title {
+  display: flex;
+  align-items: center;
+}
+.resume__skills-box h4 {
+  margin-left: 0.2em;
+}
 .resume__education-box {
   padding: 0.7em 0;
 }
@@ -92,16 +106,6 @@ body {
 }
 .resume__education-date {
   margin: 0.5em 0;
-}
-.resume__skills-box {
-  padding: 1em 0;
-}
-.resume__skills-box-title {
-  display: flex;
-  align-items: center;
-}
-.resume__skills-box h4 {
-  margin-left: 0.2em;
 }
 .resume__interests-box {
   display: flex;

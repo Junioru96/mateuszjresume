@@ -7,10 +7,10 @@ body {
 // COMMON
 
 .section-padding {
-	padding: 3em 1.5em;
+	padding: 1em 1.5em;
 }
 
-.resume__education.section-padding,
+.resume__skills.section-padding,
 .resume__interests.section-padding {
 	padding: 0 1.5em;
 }
@@ -86,6 +86,28 @@ body {
 		}
 	}
 
+    // SKILLS
+
+    &__skills {
+
+        &-list {
+            list-style-type: none;
+            padding: 0;
+        }
+		&-box {
+			padding: 1em 0;
+
+			&-title {
+				display: flex;
+				align-items: center;
+			}
+
+			h4 {
+				margin-left: 0.2em;
+			}
+		}
+	}
+
 	// EDUCATION
 
 	&__education {
@@ -103,23 +125,6 @@ body {
 
 		&-date {
 			margin: 0.5em 0;
-		}
-	}
-
-	// SKILLS
-
-	&__skills {
-		&-box {
-			padding: 1em 0;
-
-			&-title {
-				display: flex;
-				align-items: center;
-			}
-
-			h4 {
-				margin-left: 0.2em;
-			}
 		}
 	}
 
