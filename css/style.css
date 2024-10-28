@@ -92,4 +92,15 @@ body {
 }
 .resume__education-date {
   margin: 0.5em 0;
+}
+.resume__skills-box {
+  padding: 1em 0;
+  font-size: 1.4rem;
+}
+.resume__skills-box-title {
+  display: flex;
+  align-items: center;
+}
+.resume__skills-box h4 {
+  margin-left: 0.2em;
 }/*# sourceMappingURL=style.css.map */
