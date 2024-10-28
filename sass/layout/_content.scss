@@ -10,6 +10,13 @@ body {
 	padding: 3em 1.5em;
 }
 
+.section-title {
+    text-align: left;
+    font-size: 1.5em;
+    color: $main-color;
+	text-transform: uppercase;
+}
+
 // RESUME
 
 .resume {
@@ -20,36 +27,34 @@ body {
 		display: flex;
 		justify-content: center;
 		align-items: center;
-        flex-direction: column;
-        text-align: center;
-        background-color: $main-color;
+		flex-direction: column;
+		text-align: center;
+		background-color: $main-color;
 
 		&-img {
 			width: 100%;
 			max-width: 15rem;
 			border-radius: 50%;
 		}
-        
-        &-text {
-            color: $light-color;
 
-            h1 {
-                padding: 0.5em 0;
-                font-size: 2.5rem;
-            }
+		&-text {
+			color: $light-color;
 
-            &-contact {
+			h1 {
+				padding: 0.5em 0;
+				font-size: 2.5rem;
+			}
 
-                p {
-                    margin: 0.5rem 0;
-                    font-size: 1.5rem;
+			&-contact {
+				p {
+					margin: 0.5rem 0;
+					font-size: 1.5rem;
+				}
 
-                }
-
-                i {
-                    margin-right: 0.5em;
-                }
-            }
-        }
-    }
+				i {
+					margin-right: 0.5em;
+				}
+			}
+		}
+	}
 }
