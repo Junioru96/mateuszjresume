@@ -122,4 +122,9 @@ body {
   .resume__header-text {
     text-align: left;
   }
+}
+@media (min-width: 768px) {
+  .resume {
+    margin: 1.5em;
+  }
 }/*# sourceMappingURL=style.css.map */
