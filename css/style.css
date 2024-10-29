@@ -38,6 +38,7 @@ body {
 }
 
 .resume {
+  position: relative;
   background-color: #F7FBFC;
   overflow: hidden;
   font-size: 1.4rem;
