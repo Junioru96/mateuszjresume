@@ -46,7 +46,8 @@ body {
 			bottom: -0.4em;
 			display: flex;
 
-			button {
+			button,
+			a {
 				margin: 0 0.5em;
 				padding: 0.2em;
 				border: none;
@@ -55,14 +56,15 @@ body {
 				font-size: 1.7em;
 				color: $light-color;
 				cursor: pointer;
-				transition: background-color .3s;
+				transition: background-color 0.3s;
 
 				i {
-					transition: color .3s;
+					transition: color 0.3s;
 				}
 			}
 
-			button:hover {
+			button:hover,
+			a:hover {
 				background-color: $light-color;
 
 				i {
