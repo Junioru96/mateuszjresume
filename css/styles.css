@@ -1,24 +1,18 @@
 *,
 *::before,
 *::after {
-  box-sizing: border-box;
-  padding: 0;
   margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #D6E6F2;
 }
 
 html {
   font-size: 62.5%;
   font-family: "Montserrat", sans-serif;
-}
-
-.wrapper {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 800px;
-}
-
-body {
-  background-color: #D6E6F2;
 }
 
 .section-padding {
@@ -35,6 +29,12 @@ body {
   font-size: 1.5em;
   color: #0074D9;
   text-transform: uppercase;
+}
+
+.wrapper {
+  margin: 0 auto;
+  width: 100%;
+  max-width: 800px;
 }
 
 .resume {
@@ -183,7 +183,7 @@ body {
 }
 @media (min-width: 768px) {
   .resume {
-    margin: 1.5em;
+    margin: 1.4em;
   }
   .resume__interests-box {
     width: 25%;
